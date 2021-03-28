@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, intial-scale=1.0">
+	<title></title>
+</head>
+<body>
+	<table>
+		{% for item in result %}
+		<TR>
+		   <TD>{{item[0]}}</TD>
+		   <TD class="c3">{{item[1]}}</TD>
+		   <TD class="c4"><SPAN>{{item[2]}}</SPAN></TD>
+		   <TD class="c5"><SPAN>{{item[3]}}</SPAN></TD>
+		</TR>
+		{% endfor %}
+		</table>
+</body>
+</html>
